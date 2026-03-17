@@ -140,13 +140,13 @@
 --primary: #2BB673;
   --secondary: #00AEEF;
   --accent: #F4C95D;
-  --bg-light: #F7F9FB;
-  --bg-dark: #E8EDF2;
+  --bg-light: #fbf5e9;
+  --bg-dark: #F4C95D;
   --text-dark: #1A2530;
   --text-light: #1A2530;
   --text-muted: #4A5A6A;
-  --border-light: #808486;
-  --border-dark: #7b848a;
+  --border-light: #868073;
+  --border-dark: #786f5c;
   --nav-bg: transparent;
   --nav-text: #F6F0E7;
   --nav-text-hover: #2BB673;
@@ -181,7 +181,7 @@
   --primary-color: #2BB673;
   --secondary-color: #00AEEF;
   --accent-color: #F4C95D;
-  --background-color: #F7F9FB;
+  --background-color: #fbf5e9;
   --surface-color: #FFFFFF;
   --text-color: #1A2530;
   --text-secondary-color: #4A5A6A;
@@ -669,13 +669,13 @@ input, textarea, select {
   --primary: #2BB673;
   --secondary: #00AEEF;
   --accent: #F4C95D;
-  --bg-light: #F7F9FB;
-  --bg-dark: #E8EDF2;
+  --bg-light: #fbf5e9;
+  --bg-dark: #F4C95D;
   --text-dark: #1A2530;
   --text-light: #1A2530;
   --text-muted: #4A5A6A;
-  --border-light: #808486;
-  --border-dark: #7b848a;
+  --border-light: #868073;
+  --border-dark: #786f5c;
 }
 
 .navbar {
@@ -897,13 +897,13 @@ input, textarea, select {
   --primary: #2BB673;
   --secondary: #00AEEF;
   --accent: #F4C95D;
-  --bg-light: #F7F9FB;
-  --bg-dark: #E8EDF2;
+  --bg-light: #fbf5e9;
+  --bg-dark: #F4C95D;
   --text-dark: #1A2530;
   --text-light: #1A2530;
   --text-muted: #4A5A6A;
-  --border-light: #808486;
-  --border-dark: #7b848a;
+  --border-light: #868073;
+  --border-dark: #786f5c;
 }
 
 .navbar {
@@ -1954,13 +1954,13 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   --primary: #2BB673;
   --secondary: #00AEEF;
   --accent: #F4C95D;
-  --bg-light: #F7F9FB;
-  --bg-dark: #E8EDF2;
+  --bg-light: #fbf5e9;
+  --bg-dark: #F4C95D;
   --text-dark: #1A2530;
   --text-light: #1A2530;
   --text-muted: #4A5A6A;
-  --border-light: #808486;
-  --border-dark: #7b848a;
+  --border-light: #868073;
+  --border-dark: #786f5c;
 }
 
 .site-footer {
@@ -2839,7 +2839,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .home-value-proposition-section .home-value-proposition-detail-row.home-value-proposition-detail-open {
-  background: #F7F9FB;
+  background: #fbf5e9;
   border-color: var(--primary);
   box-shadow: 0 8px 18px rgba(44,43,39,0.10);
 }
@@ -3348,7 +3348,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   padding: 12px 16px;
   border: 1px solid rgba(44, 43, 39, 0.18);
   border-radius: 6px;
-  background: #F7F9FB;
+  background: #fbf5e9;
   color: var(--text-dark);
   transition: all 0.2s ease;
 }
