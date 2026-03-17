@@ -140,13 +140,13 @@
 --primary: #2BB673;
   --secondary: #00AEEF;
   --accent: #F4C95D;
-  --bg-light: #0A0F14;
-  --bg-dark: #050810;
-  --text-dark: #859099;
-  --text-light: #F6F0E7;
-  --text-muted: #7d8d99;
-  --border-light: #D6CCBF;
-  --border-dark: #5d6873;
+  --bg-light: #FFFFFF;
+  --bg-dark: #F0F4F8;
+  --text-dark: #1A2530;
+  --text-light: #1A2530;
+  --text-muted: #4A5A6A;
+  --border-light: #808486;
+  --border-dark: #7b848a;
   --nav-bg: transparent;
   --nav-text: #F6F0E7;
   --nav-text-hover: #2BB673;
@@ -181,10 +181,10 @@
   --primary-color: #2BB673;
   --secondary-color: #00AEEF;
   --accent-color: #F4C95D;
-  --background-color: #0A0F14;
-  --surface-color: #0F1820;
-  --text-color: #859099;
-  --text-secondary-color: #7d8d99;
+  --background-color: #FFFFFF;
+  --surface-color: #F7F9FB;
+  --text-color: #1A2530;
+  --text-secondary-color: #4A5A6A;
 }
 
 *, *::before, *::after {
@@ -457,7 +457,7 @@ input, textarea, select {
 }
 
 .card {
-  background: #0F1820;
+  background: #F7F9FB;
   border-radius: var(--radius-lg);
   padding: var(--spacing-md);
   box-shadow: var(--shadow-sm);
@@ -669,13 +669,13 @@ input, textarea, select {
   --primary: #2BB673;
   --secondary: #00AEEF;
   --accent: #F4C95D;
-  --bg-light: #0A0F14;
-  --bg-dark: #050810;
-  --text-dark: #859099;
-  --text-light: #F6F0E7;
-  --text-muted: #7d8d99;
-  --border-light: #D6CCBF;
-  --border-dark: #5d6873;
+  --bg-light: #FFFFFF;
+  --bg-dark: #F0F4F8;
+  --text-dark: #1A2530;
+  --text-light: #1A2530;
+  --text-muted: #4A5A6A;
+  --border-light: #808486;
+  --border-dark: #7b848a;
 }
 
 .navbar {
@@ -897,13 +897,13 @@ input, textarea, select {
   --primary: #2BB673;
   --secondary: #00AEEF;
   --accent: #F4C95D;
-  --bg-light: #0A0F14;
-  --bg-dark: #050810;
-  --text-dark: #859099;
-  --text-light: #F6F0E7;
-  --text-muted: #7d8d99;
-  --border-light: #D6CCBF;
-  --border-dark: #5d6873;
+  --bg-light: #FFFFFF;
+  --bg-dark: #F0F4F8;
+  --text-dark: #1A2530;
+  --text-light: #1A2530;
+  --text-muted: #4A5A6A;
+  --border-light: #808486;
+  --border-dark: #7b848a;
 }
 
 .navbar {
@@ -1954,13 +1954,13 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   --primary: #2BB673;
   --secondary: #00AEEF;
   --accent: #F4C95D;
-  --bg-light: #0A0F14;
-  --bg-dark: #050810;
-  --text-dark: #859099;
-  --text-light: #F6F0E7;
-  --text-muted: #7d8d99;
-  --border-light: #D6CCBF;
-  --border-dark: #5d6873;
+  --bg-light: #FFFFFF;
+  --bg-dark: #F0F4F8;
+  --text-dark: #1A2530;
+  --text-light: #1A2530;
+  --text-muted: #4A5A6A;
+  --border-light: #808486;
+  --border-dark: #7b848a;
 }
 
 .site-footer {
@@ -2839,7 +2839,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .home-value-proposition-section .home-value-proposition-detail-row.home-value-proposition-detail-open {
-  background: #0A0F14;
+  background: #FFFFFF;
   border-color: var(--primary);
   box-shadow: 0 8px 18px rgba(44,43,39,0.10);
 }
@@ -3348,7 +3348,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   padding: 12px 16px;
   border: 1px solid rgba(44, 43, 39, 0.18);
   border-radius: 6px;
-  background: #0A0F14;
+  background: #FFFFFF;
   color: var(--text-dark);
   transition: all 0.2s ease;
 }
@@ -3720,10 +3720,10 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 .navbar .nav-menu > li > a:hover,
 .navbar .nav-menu > .nav-item > a:hover,
 .navbar .nav-link:hover,
-.navbar a:not(.nav-cta-btn):hover { color: #2BB673 !important; }
+.navbar a:not(.nav-cta-btn):hover { color: #1f8454 !important; }
 .navbar .navbar-brand, .navbar .navbar-brand a { color: #F6F0E7 !important; }
 .navbar .dropdown-toggle { color: #F6F0E7 !important; }
-.navbar .dropdown-toggle:hover { color: #2BB673 !important; }
+.navbar .dropdown-toggle:hover { color: #1f8454 !important; }
 .navbar .mobile-hamburger-btn, .navbar .mobile-close-btn { color: #F6F0E7 !important; }
 .navbar-toggler { color: #F6F0E7 !important; border-color: #F6F0E744 !important; }
 .navbar-toggler-icon { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23F6F0E7' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; }
@@ -3762,7 +3762,7 @@ nav.navbar .sub-menu li a:hover { color: #2BB673 !important; background-color: r
 .zappy-catalog-menu .catalog-menu-item,
 .zappy-catalog-menu .catalog-menu-all { color: #F6F0E7 !important; }
 .zappy-catalog-menu .catalog-menu-item:hover,
-.zappy-catalog-menu .catalog-menu-all:hover { color: #2BB673 !important; background: rgba(128,128,128,0.1) !important; }
+.zappy-catalog-menu .catalog-menu-all:hover { color: #1f8454 !important; background: rgba(128,128,128,0.1) !important; }
 .navbar .cart-link.nav-cart,
 .navbar .login-link.nav-login,
 .navbar .nav-search-toggle,
@@ -3857,12 +3857,12 @@ nav.navbar .sub-menu li a:hover { color: #2BB673 !important; background-color: r
   .nav-menu, .nav-menu.active, .nav-menu.nav-menu-active, #navMenu, #navMenu.active, .mobile-menu, .mobile-menu.active, .mobile-nav, .mobile-nav.active { background-color: #1F2A33 !important; background: #1F2A33 !important; }
   .nav-menu.active, .nav-menu.nav-menu-active, #navMenu.active, .mobile-menu.active, .mobile-nav.active { max-height: calc(100dvh - 70px) !important; overflow-y: auto !important; }
   .nav-menu a, .nav-menu > li > a, #navMenu a, #navMenu > li > a { color: #F6F0E7 !important; }
-  .nav-menu a:hover, .nav-menu > li > a:hover { color: #2BB673 !important; }
+  .nav-menu a:hover, .nav-menu > li > a:hover { color: #1f8454 !important; }
   .nav-menu .dropdown-menu { background: rgba(128,128,128,0.06) !important; }
   .nav-menu .dropdown-menu a, .nav-menu .dropdown-menu li a { color: #F6F0E7 !important; }
-  .nav-menu .dropdown-menu a:hover { color: #2BB673 !important; }
+  .nav-menu .dropdown-menu a:hover { color: #1f8454 !important; }
   .nav-menu .sub-menu a { color: #F6F0E7 !important; }
-  .nav-menu .sub-menu a:hover { color: #2BB673 !important; }
+  .nav-menu .sub-menu a:hover { color: #1f8454 !important; }
   .nav-menu > li { position: relative !important; }
   .navbar .nav-menu .mobile-submenu-toggle { color: #F6F0E7 !important; position: static !important; height: auto !important; flex-shrink: 0 !important; align-self: stretch !important; }
   .mobile-toggle { color: #F6F0E7 !important; }
