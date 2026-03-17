@@ -4332,8 +4332,9 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
-.home-hero-section .home-hero-section__overlay-card a.btn, .home-hero-section .home-hero-section__overlay-card .zappy-button, .home-hero-section .home-hero-section__overlay-card [data-element-type="button"] {
-  display: none;
+.home-hero-section .home-hero-section__overlay-card {
+  width: 1040px;
+  max-width: 100%;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
