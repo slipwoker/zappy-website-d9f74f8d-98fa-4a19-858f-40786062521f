@@ -4334,7 +4334,7 @@ body.accessibility-widget-visible ._access-menu {
 
 @media (min-width: 769px) {
 .home-hero-section .home-hero-section__overlay-card {
-  transform: translateY(-80px);
+  transform: translateY(-50px);
 }
 }
 
