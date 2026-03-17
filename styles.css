@@ -4332,7 +4332,7 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
-.home-hero-section .home-hero-section__overlay-card a.zappy-btn, .home-hero-section .home-hero-section__overlay-card .zappy-element-button {
+.home-hero-section .home-hero-section__overlay-card a.btn, .home-hero-section .home-hero-section__overlay-card .zappy-button, .home-hero-section .home-hero-section__overlay-card [data-element-type="button"] {
   display: none;
 }
 
