@@ -4332,7 +4332,14 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
+.home-hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .home-hero-section .home-hero-section__overlay-card {
+  align-self: center;
   margin-left: auto;
   margin-right: auto;
 }
