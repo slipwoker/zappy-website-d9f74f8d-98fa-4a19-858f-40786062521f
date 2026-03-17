@@ -242,6 +242,209 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-Hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 0;
+  background-color: #2C2B27;
+  color: var(--text-light);
+}
+
+.home-Hero-section__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.home-Hero-section__background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(44,43,39,0.00) 0%, rgba(44,43,39,0.16) 100%);
+  z-index: 1;
+}
+
+.home-Hero-section__container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 60px 80px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home-Hero-section__content-card {
+  width: 100%;
+  max-width: 520px;
+  background: rgba(251,245,233,0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 10px;
+  padding: 48px 44px;
+  border: 1px solid rgba(44,43,39,0.12);
+  box-shadow: 0 30px 70px rgba(44,43,39,0.28), 0 0 0 1px rgba(255,255,255,0.55) inset;
+  color: var(--text-dark);
+}
+
+.home-Hero-section__headline {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 44px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--text-dark);
+  margin: 0 0 24px 0;
+}
+
+.home-Hero-section__description {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.75;
+  color: var(--text-dark);
+  margin: 0 0 20px 0;
+}
+
+.home-Hero-section__reassurance {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #6F6A60;
+  margin: 0 0 32px 0;
+}
+
+.home-Hero-section__cta-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.home-Hero-section__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  padding: 14px 26px;
+  border-radius: 6px;
+  transition: transform 220ms ease, box-shadow 220ms ease, background-color 220ms ease, color 220ms ease, border-color 220ms ease;
+  cursor: pointer;
+}
+
+.home-Hero-section__btn--primary {
+  background: var(--primary);
+  color: #FFFFFF;
+  border: 1px solid rgba(44,43,39,0.12);
+  box-shadow: 0 6px 14px rgba(43,182,115,0.24);
+}
+
+.home-Hero-section__btn--primary:hover {
+  background: #25A062;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(43,182,115,0.32);
+}
+
+.home-Hero-section__btn--secondary {
+  background: transparent;
+  color: var(--text-dark);
+  border: 2px solid var(--text-dark);
+  box-shadow: 0 4px 10px rgba(44,43,39,0.10);
+}
+
+.home-Hero-section__btn--secondary:hover {
+  background: rgba(44,43,39,0.06);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(44,43,39,0.14);
+}
+
+.home-Hero-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-Hero-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .home-Hero-section {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-Hero-section__container {
+    padding: 120px 20px 60px;
+    min-height: auto;
+  }
+  
+  .home-Hero-section__content-card {
+    max-width: 100%;
+    padding: 36px 28px;
+  }
+  
+  .home-Hero-section__headline {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+  }
+  
+  .home-Hero-section__description {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+  
+  .home-Hero-section__reassurance {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  
+  .home-Hero-section__cta-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .home-Hero-section__btn {
+    width: 100%;
+    padding: 16px 24px;
+  }
+  
+  .home-Hero-section__divider-wrapper {
+    height: 80px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -801,13 +1004,13 @@
     </div>
   <grammarly-extension-vbars data-grammarly-shadow-root="true" style="display: contents; --rem: 16;" class="dnXmp"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" style="display: contents; --rem: 16;" class="dnXmp"></grammarly-extension-vbars><grammarly-extension-vbars data-grammarly-shadow-root="true" style="display: contents; --rem: 16;" class="dnXmp"></grammarly-extension-vbars></div><div class="zappy-inserted-element" id="zappy-element-1773776310455-vulnuhwmv" data-element-id="zappy-element-1773776310455-vulnuhwmv" data-element-type="h2" data-zappy-newly-inserted="true" style="margin: 0px !important; padding: 0px !important; display: block; align-self: start !important; flex: 0 1 auto;"></div>
   
-  <div class="home-hero-section__divider-wrapper" style="; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;">
+  <div class="home-hero-section__divider-wrapper" style="; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;; display: none !important;">
     <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#FBF5E9;stop-"></stop>
           <stop offset="100%" style="stop-color:#FBF5E9;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,120 L0,60 Q150,55 300,62 T600,58 Q750,64 900,60 T1200,65 L1200,120 Z" fill="var(--bg-light)"></path>
     </svg>
@@ -821,33 +1024,42 @@
 
 
 
-<section class="home-hero-section" data-layout-spec="Home-Hero" data-hero-type="fullscreen-scrim" id="zappy-section-0-dup-1773748225680" style="opacity: 1;">
-  <div class="home-hero-section__bg-wrapper" style="">
-    <div data-zappy-zoom-wrapper="true" data-element-id="img-1773712376456-ispd77f87" data-element-type="image" data-zappy-zoom-wrapper-width="1861px" data-zappy-zoom-wrapper-height="991px" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; overflow: hidden !important; width: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; height: 100% !important; display: block; top: 0px !important; left: 0px !important; z-index: 1 !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-hero-bg="true" data-placeholder="home-hero-bg" data-context="Expansive aerial view of beautiful vacant land in the United States - rolling hills with golden grass, scattered trees, distant mountains under a clear blue sky, warm afternoon light, peaceful rural landscape perfect for residential or recreational use, wide open spaces conveying freedom and opportunity" width="1920" height="1080" src="/assets/site-home-hero-bg-1773750605665-gtjenq.webp?v=1773750607202" alt="Beautiful vacant land with rolling hills and open skies" class="home-hero-section__bg-image zappy-editable-image" data-element-type="image" data-element-id="img-1773748233880-wyqxy83oe" style="object-position: 53% 10%; margin: 0px !important; position: absolute !important; left: 0% !important; top: -0.481309% !important; width: 100% !important; height: 104.813% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1" data-zappy-original-width="1861" data-zappy-original-height="991"></div>
-    <div class="home-hero-section__scrim" aria-hidden="true" style=""></div>
-  </div>
+<section class="home-Hero-section" data-layout-spec="Home-Hero" data-zappy-section="true" data-hero-type="fullscreen-scrim" id="zappy-section-0-dup-1773748225680">
+  <div class="home-Hero-section__background" style="background-image: url('assets/site-home-hero-bg-1773750605665-gtjenq.webp?v=1773750607202');  background-size: cover; background-position: center;"></div>
   
-  <div class="home-hero-section__content-wrapper" style="background-color: transparent; width: 1040px; margin-left: auto; margin-right: auto">
-    <div class="home-hero-section__overlay-card">
-      <h1 class="home-hero-section__headline" style="" spellcheck="false">Own Your Piece of America—Simply, Clearly, Affordably</h1>
-      <p class="home-hero-section__paragraph">Discover vacant land opportunities across the United States with transparent pricing, clear terms, and seller financing available. From residential lots to recreational retreats and agricultural parcels—find your perfect property today.</p>
-      <h3 class="home-hero-section__reassurance">Straightforward steps. Clear closing. No hidden surprises.</h3>
-      <div class="home-hero-section__cta-row">
-        <a href="#contact" class="home-hero-section__btn-primary" data-element-type="button" data-element-id="btn-1773712376452-nv596mf3t" data-native-element="true">See Available Land</a>
-        <a href="#contact" class="home-hero-section__btn-secondary" data-element-type="button" data-element-id="btn-1773712376452-zqjr85jl4" data-native-element="true">Ask a Question</a>
+  <div class="home-Hero-section__container">
+    <div class="home-Hero-section__content-card">
+      <h1 class="home-Hero-section__headline">Own Your Piece of America—Simply, Clearly, Affordably</h1>
+      
+      <p class="home-Hero-section__description">Discover vacant land opportunities across the United States with transparent pricing, clear terms, and seller financing available. From residential lots to recreational retreats and agricultural parcels—find your perfect property today.</p>
+      
+      <h3 class="home-Hero-section__reassurance">Straightforward steps. Clear closing. No hidden surprises.</h3>
+      
+      <div class="home-Hero-section__cta-row">
+        <a href="#contact" class="home-Hero-section__btn home-Hero-section__btn--primary">See Available Land</a>
+        <a href="#contact" class="home-Hero-section__btn home-Hero-section__btn--secondary">Ask a Question</a>
       </div>
     </div>
   </div>
   
-  <div class="home-hero-section__divider-wrapper">
-    <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+  <div class="home-Hero-section__divider-wrapper">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" style="stop-color:#FBF5E9;stop-"></stop>
+        <linearGradient id="heroFadeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#FBF5E9;stop-opacity:0"></stop>
           <stop offset="100%" style="stop-color:#FBF5E9;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
+        <filter id="paperGrain">
+          <feTurbulence type="fractalNoise" basefrequency="0.9" numoctaves="4" seed="2"></feTurbulence>
+          <feColorMatrix type="saturate" values="0"></feColorMatrix>
+          <feComponentTransfer>
+            <feFuncA type="discrete" tablevalues="0 0 0 0 0 1"></feFuncA>
+          </feComponentTransfer>
+          <feGaussianBlur stddeviation="0.5"></feGaussianBlur>
+        </filter>
       </defs>
-      <path d="M0,120 L0,60 Q150,55 300,62 T600,58 Q750,64 900,60 T1200,65 L1200,120 Z" fill="rgba(251,245,233,0.92)"></path>
+      <path d="M0,120 L0,55 Q100,48 200,52 T400,50 Q500,54 600,48 T800,52 Q900,49 1000,54 T1200,50 L1200,120 Z" fill="rgba(251,245,233,0.92)" opacity="0.95"></path>
+      <rect x="0" y="0" width="1200" height="120" fill="white" opacity="0.02" filter="url(#paperGrain)"></rect>
     </svg>
   </div>
 </section><section class="home-hero-section" data-layout-spec="Home-Hero" data-hero-type="fullscreen-scrim" id="zappy-section-0-dup-1773750867346" style="opacity: 1;">
@@ -871,10 +1083,10 @@
   <div class="home-hero-section__divider-wrapper">
     <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s-copy-1773750644957-5rhhk-copy-1773750866797-hjs21" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s-copy-1773750644957-5rhhk-copy-1773750866797-hjs21" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#FBF5E9;stop-"></stop>
           <stop offset="100%" style="stop-color:#FBF5E9;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,120 L0,60 Q150,55 300,62 T600,58 Q750,64 900,60 T1200,65 L1200,120 Z" fill="rgba(251,245,233,0.92)"></path>
     </svg>
@@ -900,10 +1112,10 @@
   <div class="home-hero-section__divider-wrapper">
     <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s-copy-1773750324993-0tylq" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s-copy-1773750324993-0tylq" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#FBF5E9;stop-"></stop>
           <stop offset="100%" style="stop-color:#FBF5E9;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,120 L0,60 Q150,55 300,62 T600,58 Q750,64 900,60 T1200,65 L1200,120 Z" fill="rgba(251,245,233,0.92)"></path>
     </svg>
@@ -929,10 +1141,10 @@
   <div class="home-hero-section__divider-wrapper">
     <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s-copy-1773750324993-0tylq-copy-1773772583253-yrct9" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s-copy-1773750324993-0tylq-copy-1773772583253-yrct9" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#FBF5E9;stop-"></stop>
           <stop offset="100%" style="stop-color:#FBF5E9;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,120 L0,60 Q150,55 300,62 T600,58 Q750,64 900,60 T1200,65 L1200,120 Z" fill="rgba(251,245,233,0.92)"></path>
     </svg>
@@ -958,10 +1170,10 @@
   <div class="home-hero-section__divider-wrapper">
     <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s-copy-1773750324993-0tylq-copy-1773772583253-yrct9-dup-1773772791485-0" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s-copy-1773750324993-0tylq-copy-1773772583253-yrct9-dup-1773772791485-0" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#FBF5E9;stop-"></stop>
           <stop offset="100%" style="stop-color:#FBF5E9;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,120 L0,60 Q150,55 300,62 T600,58 Q750,64 900,60 T1200,65 L1200,120 Z" fill="rgba(251,245,233,0.92)"></path>
     </svg>
@@ -987,10 +1199,10 @@
   <div class="home-hero-section__divider-wrapper">
     <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s-copy-1773750324993-0tylq-copy-1773770224944-ke27s" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="home-hero-divider-gradient-copy-1773748224958-jyi2s-copy-1773750324993-0tylq-copy-1773770224944-ke27s" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#FBF5E9;stop-"></stop>
           <stop offset="100%" style="stop-color:#FBF5E9;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,120 L0,60 Q150,55 300,62 T600,58 Q750,64 900,60 T1200,65 L1200,120 Z" fill="rgba(251,245,233,0.92)"></path>
     </svg>
@@ -1016,10 +1228,10 @@
   <div class="home-hero-section__divider-wrapper">
     <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="home-hero-divider-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="home-hero-divider-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#FBF5E9;stop-"></stop>
           <stop offset="100%" style="stop-color:#FBF5E9;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,120 L0,60 Q150,55 300,62 T600,58 Q750,64 900,60 T1200,65 L1200,120 Z" fill="rgba(251,245,233,0.92)"></path>
     </svg>
@@ -1045,10 +1257,10 @@
   <div class="home-hero-section__divider-wrapper">
     <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="home-hero-divider-gradient-copy-1773773156185-2io3x" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="home-hero-divider-gradient-copy-1773773156185-2io3x" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#FBF5E9;stop-"></stop>
           <stop offset="100%" style="stop-color:#FBF5E9;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,120 L0,60 Q150,55 300,62 T600,58 Q750,64 900,60 T1200,65 L1200,120 Z" fill="#FBF5E9"></path>
     </svg>
@@ -1201,10 +1413,10 @@
   <div class="home-value-proposition-divider-wrapper">
     <svg aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="home-value-proposition-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <linearGradient id="home-value-proposition-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:#F6F0E7;stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:#F4C95D;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,60 L0,0 L1200,0 L1200,60 Z" fill="#FBF5E9"></path>
     </svg>
