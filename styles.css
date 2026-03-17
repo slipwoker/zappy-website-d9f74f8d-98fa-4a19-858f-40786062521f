@@ -4333,9 +4333,9 @@ body.accessibility-widget-visible ._access-menu {
 
 
 .home-hero-section .home-hero-section__overlay-card {
-  margin-left: auto;
-  margin-right: auto;
-  align-self: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
