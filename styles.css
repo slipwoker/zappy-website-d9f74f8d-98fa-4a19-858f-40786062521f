@@ -4539,8 +4539,8 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-nav.navbar {
-  padding-bottom: 3px;
+#zappy-auto-grid-1773937483937-8ebcze-dup-1773943746120-0 .zappy-grid-item {
+  height: calc(95% - 40px);
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
