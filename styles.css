@@ -4539,8 +4539,8 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-#zappy-auto-grid-1773937483937-8ebcze-dup-1773943746120-0-dup-1773945607727-0 * {
-  text-align: left;
+#layout-1773937483243-dup-1773946037039 .image-card-grid > * {
+  border-radius: 0px;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
