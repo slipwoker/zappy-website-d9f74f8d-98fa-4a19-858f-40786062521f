@@ -4541,7 +4541,7 @@ body.accessibility-widget-visible ._access-menu {
 
 @media (min-width: 769px) {
 footer.site-footer .footer-top {
-  grid-template-columns: 2.5fr 1.5fr 1.5fr 0.5fr;
+  grid-template-columns: 2.5fr 1.7fr 1.5fr 0.3fr;
 }
 }
 
