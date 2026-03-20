@@ -4539,7 +4539,10 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-#zappy-auto-grid-1773949505308-9nimu4-dup-1774015547693-1-dup-1774022143804-0 .assurance-card h3 p {
+#zappy-auto-grid-1773949505308-9nimu4-dup-1774015547693-1-dup-1774022143804-0 > div.assurance-card:nth-child(1) > h3:nth-child(1) > p:nth-child(1),
+#zappy-auto-grid-1773949505308-9nimu4-dup-1774015547693-1-dup-1774022143804-0 > div.assurance-card:nth-child(2) > h3:nth-child(1) > p:nth-child(1),
+#zappy-auto-grid-1773949505308-9nimu4-dup-1774015547693-1-dup-1774022143804-0 > div.assurance-card:nth-child(3) > h3:nth-child(1) > p:nth-child(1),
+#zappy-auto-grid-1773949505308-9nimu4-dup-1774015547693-1-dup-1774022143804-0 > div.assurance-card:nth-child(4) > h3:nth-child(1) > p:nth-child(1) {
   font-size: 19px;
 }
 
