@@ -4539,22 +4539,9 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-footer.site-footer .footer-top {
-  display: grid;
-  grid-template-columns: 2.5fr 1.5fr 1.5fr 0.5fr;
-  gap: 32px;
-  align-items: start;
-}
-
-@media (max-width: 768px) {
-footer.site-footer .footer-top {
-  grid-template-columns: 1fr 1fr;
-}
-}
-
-@media (max-width: 480px) {
-footer.site-footer .footer-top {
-  grid-template-columns: 1fr;
+@media (min-width: 769px) {
+footer.site-footer .footer-column.footer-social {
+  margin-left: 20px;
 }
 }
 
