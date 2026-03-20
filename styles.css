@@ -4539,8 +4539,29 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-#stats #zappy-auto-grid-1773949505308-9nimu4 > .assurance-card:nth-child(3) {
-  min-height: 200%;
+#stats .stats-container {
+  text-align: left;
+  align-items: flex-start;
+}
+
+#stats .stats-header {
+  text-align: left;
+  align-items: flex-start;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+#stats .stats-header h2,
+#stats .stats-header p {
+  text-align: left;
+}
+
+#stats .stats-grid,
+#stats .stats-cards,
+#stats [class*="card"],
+#stats [class*="grid"] {
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
