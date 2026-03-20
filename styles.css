@@ -4539,29 +4539,18 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-#stats .stats-container {
-  text-align: left;
-  align-items: flex-start;
-}
-
-#stats .stats-header {
-  text-align: left;
-  align-items: flex-start;
-  margin-left: 0;
+#zappy-element-1774022565448-qr6sffera {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
   margin-right: auto;
+  font-size: 17px;
 }
 
-#stats .stats-header h2,
-#stats .stats-header p {
-  text-align: left;
-}
-
-#stats .stats-grid,
-#stats .stats-cards,
-#stats [class*="card"],
-#stats [class*="grid"] {
-  justify-content: flex-start;
-  align-items: flex-start;
+#zappy-element-1774022565448-qr6sffera p {
+  text-align: center;
+  font-size: 17px;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
