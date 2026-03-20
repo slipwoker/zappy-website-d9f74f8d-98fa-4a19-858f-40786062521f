@@ -4539,12 +4539,8 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-footer.site-footer .footer-top .footer-column.footer-contact a:hover {
-  color: #21573d;
-}
-
-footer.site-footer .footer-top .footer-column.footer-contact ul li:hover {
-  color: #21573d;
+footer.site-footer .footer-top {
+  grid-template-columns: 2.5fr 1.8fr 1fr 0.2fr;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
