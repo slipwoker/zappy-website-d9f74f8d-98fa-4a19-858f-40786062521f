@@ -4539,21 +4539,9 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-nav.navbar .phone-header-btn {
-  display: none;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  position: absolute;
-}
-
-@media (max-width: 768px) {
-nav.navbar .phone-header-btn {
-  display: none;
-  visibility: hidden;
-  width: 0;
-  height: 0;
+@media (min-width: 769px) {
+footer.site-footer .footer-top {
+  grid-template-columns: 2.5fr 1.8fr 1.5fr 0.2fr;
 }
 }
 
