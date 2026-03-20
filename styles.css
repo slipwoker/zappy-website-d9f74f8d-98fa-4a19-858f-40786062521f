@@ -4540,8 +4540,14 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 @media (min-width: 769px) {
-footer.site-footer .footer-column.footer-social {
-  margin-left: 20px;
+footer.site-footer .footer-top {
+  grid-template-columns: 2.5fr 1.5fr 1.5fr 0.5fr;
+}
+}
+
+@media (max-width: 768px) {
+footer.site-footer .footer-top {
+  grid-template-columns: 1fr;
 }
 }
 
