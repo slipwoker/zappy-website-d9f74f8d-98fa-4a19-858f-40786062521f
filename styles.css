@@ -4539,9 +4539,8 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-#zappy-auto-grid-1773937483937-8ebcze-dup-1773943746120-0-dup-1773943916445-0-dup-1773951973975-0-dup-1774014246047-0 .zappy-grid-item [data-zappy-zoom-wrapper] img,
-#zappy-auto-grid-1773937483937-8ebcze-dup-1773943746120-0-dup-1773943916445-0-dup-1773951973975-0-dup-1774014246047-0 .zappy-grid-item [data-zappy-zoom-wrapper] {
-  border-radius: 12px 12px 0 0;
+#services div.home-services-card h3 {
+  font-size: 20px;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
