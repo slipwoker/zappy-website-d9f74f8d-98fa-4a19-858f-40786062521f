@@ -4539,9 +4539,16 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-#zappy-auto-grid-1773937483937-8ebcze-dup-1773943746120-0-dup-1773943916445-0-dup-1773951973975-0-dup-1774014246047-0 .zappy-grid-item [data-zappy-zoom-wrapper="true"] {
-  border-radius: 12px 12px 0 0;
-  overflow: hidden;
+@media (min-width: 769px) {
+footer.site-footer .footer-top {
+  grid-template-columns: 2.5fr 1.8fr 1.5fr 0.2fr;
+}
+}
+
+@media (max-width: 768px) {
+footer.site-footer .footer-top {
+  grid-template-columns: 1fr;
+}
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
