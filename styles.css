@@ -4539,8 +4539,8 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-#services .home-services-grid .home-services-card h3.zappy-editable {
-  font-size: 20px;
+#services .home-services-card h3 {
+  font-size: 16px;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
