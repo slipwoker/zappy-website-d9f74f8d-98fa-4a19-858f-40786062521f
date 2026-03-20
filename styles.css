@@ -4541,6 +4541,20 @@ body.accessibility-widget-visible ._access-menu {
 
 nav.navbar .phone-header-btn {
   display: none;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+nav.navbar .phone-header-btn {
+  display: none;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
