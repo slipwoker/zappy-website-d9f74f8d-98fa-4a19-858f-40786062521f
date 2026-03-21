@@ -4540,9 +4540,8 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 @media (max-width: 768px) {
-#contact-dup-1774125310166 #zappy-auto-grid-1774027470668-m9vptc-dup-1774027755267-0-dup-1774125310166-0 > div.home-contact-info-column:nth-child(1) {
-  padding-top: 0;
-  margin-top: 0;
+.home-contact-section#contact-dup-1774125310166 {
+  padding-top: 1px;
 }
 }
 
