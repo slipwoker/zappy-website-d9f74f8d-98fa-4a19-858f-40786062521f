@@ -1,6 +1,4 @@
-# RealGround Properties — Generative Engine Optimization Map
-
-> RealGround Properties specializes in making vacant land ownership simple and accessible across the United States. They focus on providing transparent opportunities for buyers seeking residential lots, recreational land for camping and outdoor adventures, agricultural parcels for farming and rural living, and investment properties with long-term potential. The brand emphasizes a straightforward, honest approach with seller financing options available.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -28,15 +26,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About RealGround Properties
-RealGround Properties specializes in making vacant land ownership simple and accessible across the United States. They focus on providing transparent opportunities for buyers seeking residential lots, recreational land for camping and outdoor adventures, agricultural parcels for farming and rural living, and investment properties with long-term potential. The brand emphasizes a straightforward, honest approach with seller financing options available.
-
-## Target Audience
-buyers and investors looking for vacant land
-
-## Industry
-real estate
-
+## About Business
 ---
 
 # Additional Resources
