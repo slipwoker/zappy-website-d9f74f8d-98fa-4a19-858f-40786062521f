@@ -4539,13 +4539,9 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-@media (min-width: 769px) {
-#zappy-auto-grid-1774027470668-m9vptc-dup-1774027755267-0 > .home-contact-form-column {
-  order: 2;
-}
-
+@media (max-width: 768px) {
 #zappy-auto-grid-1774027470668-m9vptc-dup-1774027755267-0 > .home-contact-info-column {
-  order: 1;
+  order: -1;
 }
 }
 
