@@ -4540,8 +4540,8 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 @media (max-width: 768px) {
-.home-contact-section#contact-dup-1774125310166 {
-  padding-top: 1px;
+#contact-dup-1774125310166 .home-contact-info-column:nth-child(1) h3 {
+  display: none;
 }
 }
 
