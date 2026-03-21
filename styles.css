@@ -4540,7 +4540,7 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 @media (max-width: 768px) {
-#contact-dup-1774125310166 > div.home-contact-container:nth-child(1) {
+.home-contact-section .home-contact-header {
   margin-bottom: 2px;
 }
 }
