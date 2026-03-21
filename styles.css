@@ -4540,8 +4540,12 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 @media (min-width: 769px) {
-footer.site-footer .footer-top {
-  grid-template-columns: 2.5fr 1.8fr 1.5fr 0.2fr;
+#zappy-auto-grid-1774027470668-m9vptc-dup-1774027755267-0 > .home-contact-form-column {
+  order: 2;
+}
+
+#zappy-auto-grid-1774027470668-m9vptc-dup-1774027755267-0 > .home-contact-info-column {
+  order: 1;
 }
 }
 
