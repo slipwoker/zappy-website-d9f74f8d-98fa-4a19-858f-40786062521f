@@ -4539,13 +4539,10 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-#zappy-auto-grid-1773937483937-8ebcze-dup-1773943746120-0-dup-1773943916445-0-dup-1773951973975-0-dup-1774014246047-0 > .zappy-grid-item img {
-  border-radius: 12px 12px 0px 0px;
+@media (min-width: 769px) {
+footer.site-footer .footer-top {
+  grid-template-columns: 2.5fr 1.8fr 1.5fr 0.2fr;
 }
-
-#zappy-auto-grid-1773937483937-8ebcze-dup-1773943746120-0-dup-1773943916445-0-dup-1773951973975-0-dup-1774014246047-0 > .zappy-grid-item [data-zappy-zoom-wrapper] {
-  border-radius: 12px 12px 0px 0px;
-  overflow: hidden;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
