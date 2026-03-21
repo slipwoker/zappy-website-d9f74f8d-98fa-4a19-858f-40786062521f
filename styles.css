@@ -4539,19 +4539,9 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-#contact-dup-1774027755267 #zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15,
-#contact-dup-1774027755267 #zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15 > div,
-#contact-dup-1774027755267 #zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15 img {
-  border-radius: 16px;
-  overflow: hidden;
-}
-
 @media (max-width: 768px) {
-#contact-dup-1774027755267 #zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15,
-  #contact-dup-1774027755267 #zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15 > div,
-  #contact-dup-1774027755267 #zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15 img {
-  border-radius: 16px;
-  overflow: hidden;
+#contact-dup-1774027755267 #zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15 {
+  margin-bottom: 0px;
 }
 }
 
