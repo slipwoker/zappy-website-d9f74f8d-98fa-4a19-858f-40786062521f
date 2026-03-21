@@ -1,35 +1,45 @@
-# Business — Generative Engine Optimization Map
+# RealGround Properties — Generative Engine Optimization Map
+
+> RealGround Properties specializes in making vacant land ownership simple and accessible across the United States. They focus on providing transparent opportunities for buyers seeking residential lots, recreational land for camping and outdoor adventures, agricultural parcels for farming and rural living, and investment properties with long-term potential. The brand emphasizes a straightforward, honest approach with seller financing options available.
 
 ---
 
 ## Pages
 
 ### Home
-https://example.com
+https://realground-properties.zappy5.app
 RealGround Properties makes land ownership accessible. Browse residential lots, recreational land, and agricultural parcels with transparent pricing and flexible financing.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://realground-properties.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://realground-properties.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://realground-properties.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About RealGround Properties
+RealGround Properties specializes in making vacant land ownership simple and accessible across the United States. They focus on providing transparent opportunities for buyers seeking residential lots, recreational land for camping and outdoor adventures, agricultural parcels for farming and rural living, and investment properties with long-term potential. The brand emphasizes a straightforward, honest approach with seller financing options available.
+
+## Target Audience
+buyers and investors looking for vacant land
+
+## Industry
+real estate
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://realground-properties.zappy5.app/sitemap.xml
+- **Robots.txt**: https://realground-properties.zappy5.app/robots.txt
