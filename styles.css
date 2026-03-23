@@ -4539,8 +4539,10 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+@media (min-width: 769px) {
 #zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15-dup-1774125310166-1 {
-  max-height: 180px;
+  max-height: 380px;
+}
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
