@@ -4540,9 +4540,8 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 @media (max-width: 768px) {
-#zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15-dup-1774125310166-1,
-  #zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15-dup-1774125310166-1-dup-1774390024115-1 {
-  max-height: 180px;
+.layout-section#layout-1774036303222 {
+  min-height: 180px;
 }
 }
 
