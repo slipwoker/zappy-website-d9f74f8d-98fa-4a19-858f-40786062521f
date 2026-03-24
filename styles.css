@@ -4539,9 +4539,9 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-@media (min-width: 769px) {
-footer.site-footer .footer-top {
-  grid-template-columns: 2.5fr 1.8fr 1.5fr 0.2fr;
+@media (max-width: 768px) {
+#zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15-dup-1774125310166-1 {
+  max-height: 180px;
 }
 }
 
