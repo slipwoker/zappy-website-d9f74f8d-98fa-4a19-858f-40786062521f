@@ -4539,10 +4539,48 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-@media (max-width: 768px) {
-.layout-section#layout-1774036303222 {
-  min-height: 180px;
+/* Privacy consent checkbox — uses !important to override site form styles */
+.privacy-consent {
+  margin: 16px 0 !important;
+  font-size: 0.875rem !important;
 }
+.privacy-consent-label {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  line-height: 1.4 !important;
+  flex-direction: row !important;
+  color: inherit !important;
+}
+.privacy-consent-checkbox {
+  margin-top: 3px !important;
+  flex-shrink: 0 !important;
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  cursor: pointer !important;
+  accent-color: currentColor;
+}
+.privacy-consent span {
+  flex: 1;
+  color: inherit !important;
+}
+.privacy-consent a {
+  color: inherit !important;
+  text-decoration: underline !important;
+  font-weight: 600;
+}
+.privacy-consent a:hover {
+  opacity: 0.75;
+}
+
+#zappy-auto-grid-1773937483937-8ebcze-dup-1773943746120-0-dup-1773943916445-0-dup-1773951973975-0-dup-1774014246047-0 > div {
+  border-radius: 16px !important;
+}
+
+#zappy-auto-grid-1773937483937-8ebcze-dup-1773943746120-0-dup-1773943916445-0-dup-1773951973975-0-dup-1774014246047-0 > div img {
+  border-radius: 16px 16px 0 0 !important;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
