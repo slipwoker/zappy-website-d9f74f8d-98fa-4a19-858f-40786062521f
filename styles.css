@@ -4576,9 +4576,8 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 @media (max-width: 768px) {
-#layout-1773937483243-dup-1774014246047 .image-card-grid .zappy-grid-item img.layout-placeholder-image {
-  border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+.nav-brand .logo {
+  transform: scale(1.4);
 }
 }
 
