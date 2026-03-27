@@ -4575,10 +4575,11 @@ body.accessibility-widget-visible ._access-menu {
   opacity: 0.75;
 }
 
-@media (min-width: 769px) {
-.nav-brand .logo {
-  width: 160px !important;
+@media (max-width: 768px) {
+.navbar .nav-brand .logo {
+  width: auto !important;
   height: 40px !important;
+  max-width: none !important;
 }
 }
 
