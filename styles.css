@@ -4578,15 +4578,9 @@ body.accessibility-widget-visible ._access-menu {
 
 
 @media (max-width: 768px) {
-.layout-section.hero-section#layout-1774036303222 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  padding: 0 !important;
-}
-
-.layout-section.hero-section#layout-1774036303222 .container {
-  padding: 0 !important;
-  margin: 0 !important;
+#layout-1774036303222 .container {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 }
 
