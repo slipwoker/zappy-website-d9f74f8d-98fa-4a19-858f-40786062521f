@@ -4577,9 +4577,9 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
-@media (max-width: 768px) {
-#zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15-dup-1774125310166-1 {
-  height: 180px !important;
+@media (min-width: 769px) {
+.layout-section.hero-section#layout-1774036303222 {
+  min-height: 364px !important;
 }
 }
 
