@@ -4577,6 +4577,13 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
+@media (max-width: 768px) {
+.nav-brand .logo {
+  width: auto;
+  height: 52px;
+}
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
