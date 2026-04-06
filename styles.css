@@ -4587,6 +4587,14 @@ body.accessibility-widget-visible ._access-menu {
 }
 }
 
+@media (max-width: 768px) {
+#zappy-section-0-dup-1773844088356 .home-Hero-section__container {
+  min-height: auto !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
