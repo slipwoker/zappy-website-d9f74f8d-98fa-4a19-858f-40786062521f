@@ -3210,8 +3210,8 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 @media (max-width: 768px) {
   .home-contact-section {
-    padding: 60px 16px;
-  }
+  padding: 10px 16px;
+}
   
   .home-contact-section .home-contact-header {
     margin-bottom: 40px;
