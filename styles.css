@@ -3002,8 +3002,8 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 @media (max-width: 768px) {
   .home-stats-section {
-    padding: 60px 16px 140px;
-  }
+  padding: 10px 16px 140px;
+}
 
   .home-stats-section .stats-header {
     margin-bottom: 40px;
