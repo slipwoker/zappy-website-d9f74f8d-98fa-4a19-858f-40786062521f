@@ -4600,6 +4600,18 @@ body.accessibility-widget-visible ._access-menu {
   height: 180px !important;
 }
 }
+
+@media (min-width: 769px) {
+.layout-section#layout-1774036303222 {
+  min-height: 364px !important;
+}
+}
+
+@media (max-width: 768px) {
+.layout-section#layout-1774036303222 {
+  min-height: 120px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
