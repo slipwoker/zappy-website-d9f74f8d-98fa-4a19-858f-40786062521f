@@ -4730,6 +4730,12 @@ body.accessibility-widget-visible ._access-menu {
   padding-top: 20px !important;
 }
 }
+
+@media (min-width: 769px) {
+.navbar #navMenu {
+  margin-left: 80px;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
