@@ -4665,6 +4665,16 @@ body.accessibility-widget-visible ._access-menu {
   transform-origin: center center;
 }
 }
+
+@media (max-width: 768px) {
+.navbar .nav-brand {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: auto !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
