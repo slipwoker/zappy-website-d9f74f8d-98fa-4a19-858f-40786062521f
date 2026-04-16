@@ -4755,6 +4755,13 @@ body.accessibility-widget-visible ._access-menu {
   padding-left: 0 !important;
 }
 }
+
+@media (min-width: 769px) {
+.home-services-section .home-services-image-wrapper [data-zappy-zoom-wrapper="true"] {
+  height: 685px !important;
+  aspect-ratio: unset !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
