@@ -4768,6 +4768,18 @@ body.accessibility-widget-visible ._access-menu {
   padding-top: 10px !important;
 }
 }
+
+@media (max-width: 768px) {
+.home-contact-section {
+  padding-top: 10px !important;
+}
+}
+
+@media (max-width: 768px) {
+.home-stats-section {
+  padding-bottom: 40px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
