@@ -2884,11 +2884,12 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   }
 }
 
+/* home-stats */
 .home-stats-section {
   position: relative;
   background: linear-gradient(180deg, #2B2A26 0%, #1F1E1B 100%);
   color: var(--text-light);
-  padding: 80px 16px 60px;
+  padding: 80px 16px 160px;
   overflow: visible;
 }
 
@@ -3209,8 +3210,8 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 @media (max-width: 768px) {
   .home-contact-section {
-  padding: 10px 16px;
-}
+    padding: 60px 16px;
+  }
   
   .home-contact-section .home-contact-header {
     margin-bottom: 40px;
@@ -4769,32 +4770,12 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 @media (max-width: 768px) {
+.home-contact-section .home-contact-header {
+  display: none !important;
+}
+
 .home-contact-section {
-  padding-top: 10px !important;
-}
-}
-
-@media (max-width: 768px) {
-.home-stats-section {
-  padding-bottom: 40px !important;
-}
-}
-
-@media (max-width: 768px) {
-.home-contact-section {
-  padding-top: 10px !important;
-}
-}
-
-@media (max-width: 768px) {
-.home-contact-section {
-  padding-top: 10px !important;
-  margin-top: 0 !important;
-}
-
-.home-stats-section {
-  padding-bottom: 10px !important;
-  margin-bottom: 0 !important;
+  padding-top: 20px !important;
 }
 }
 /* mobile-submenu-overflow-fix */
