@@ -4799,6 +4799,16 @@ body.accessibility-widget-visible ._access-menu {
   grid-template-columns: 1fr !important;
 }
 }
+
+.site-footer .footer-top {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 40px !important;
+}
+
+.site-footer .footer-top > *:empty {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
