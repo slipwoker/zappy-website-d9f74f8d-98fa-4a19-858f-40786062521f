@@ -4652,6 +4652,19 @@ body.accessibility-widget-visible ._access-menu {
   transform-origin: left center;
 }
 }
+
+@media (max-width: 768px) {
+.nav-brand {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.nav-brand .logo {
+  transform: scale(1.35);
+  transform-origin: center center;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
