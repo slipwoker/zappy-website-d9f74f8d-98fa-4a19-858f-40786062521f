@@ -4609,6 +4609,26 @@ body.accessibility-widget-visible ._access-menu {
   overflow: hidden !important;
 }
 }
+
+@media (max-width: 768px) {
+.layout-section.hero-section#layout-1774036303222 {
+  min-height: 140px !important;
+  max-height: 140px !important;
+  height: 140px !important;
+  overflow: hidden !important;
+  display: block !important;
+}
+}
+
+@media (max-width: 768px) {
+.layout-section.hero-section#layout-1774036303222 {
+  min-height: 140px !important;
+  max-height: 140px !important;
+  height: 140px !important;
+  display: flex !important;
+  overflow: hidden !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
