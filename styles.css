@@ -4688,6 +4688,18 @@ body.accessibility-widget-visible ._access-menu {
   border-bottom-right-radius: 0 !important;
 }
 }
+
+@media (max-width: 768px) {
+#layout-1773937483243-dup-1774014246047 .image-card-grid > div > div[data-zappy-zoom-wrapper] {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+#layout-1773937483243-dup-1774014246047 .image-card-grid > div > div[data-zappy-zoom-wrapper] img {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
