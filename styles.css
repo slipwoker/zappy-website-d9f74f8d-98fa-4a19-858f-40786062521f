@@ -4736,6 +4736,25 @@ body.accessibility-widget-visible ._access-menu {
   margin-left: 80px;
 }
 }
+
+@media (min-width: 769px) {
+.navbar .nav-menu,
+  .navbar #navMenu {
+  margin-left: 80px !important;
+}
+}
+
+@media (min-width: 769px) {
+.navbar .nav-container {
+  display: flex !important;
+}
+
+.navbar .nav-menu,
+  .navbar #navMenu {
+  margin-left: 80px !important;
+  padding-left: 0 !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
