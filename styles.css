@@ -4608,6 +4608,15 @@ body.accessibility-widget-visible ._access-menu {
   max-height: 140px !important;
 }
 }
+
+@media (max-width: 768px) {
+.layout-section.hero-section {
+  min-height: 140px !important;
+  height: 140px !important;
+  max-height: 140px !important;
+  padding: 0 !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
