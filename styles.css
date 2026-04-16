@@ -4724,6 +4724,12 @@ body.accessibility-widget-visible ._access-menu {
   border-top-right-radius: 12px !important;
 }
 }
+
+@media (max-width: 768px) {
+.home-services-section .home-services-image-column {
+  padding-top: 20px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
