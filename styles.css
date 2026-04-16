@@ -3082,7 +3082,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 .home-contact-section .home-contact-content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: start;
 }
@@ -4794,20 +4794,10 @@ body.accessibility-widget-visible ._access-menu {
 }
 }
 
-@media (max-width: 768px) {
-.home-contact-section .home-contact-content {
-  grid-template-columns: 1fr !important;
-}
-}
-
+@media (min-width: 769px) {
 .site-footer .footer-top {
-  display: grid !important;
-  grid-template-columns: repeat(3, 1fr) !important;
-  gap: 40px !important;
+  grid-template-columns: 2fr 1.5fr 1fr !important;
 }
-
-.site-footer .footer-top > *:empty {
-  display: none !important;
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
