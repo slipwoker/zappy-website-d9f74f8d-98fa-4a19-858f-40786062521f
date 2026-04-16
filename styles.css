@@ -4601,15 +4601,9 @@ body.accessibility-widget-visible ._access-menu {
 }
 }
 
-@media (min-width: 769px) {
-.layout-section#layout-1774036303222 {
-  min-height: 364px !important;
-}
-}
-
 @media (max-width: 768px) {
-.layout-section#layout-1774036303222 {
-  min-height: 120px !important;
+.layout-section.hero-section#layout-1774036303222 {
+  min-height: 140px !important;
 }
 }
 /* mobile-submenu-overflow-fix */
