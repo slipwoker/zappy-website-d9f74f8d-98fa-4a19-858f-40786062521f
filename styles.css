@@ -4762,6 +4762,12 @@ body.accessibility-widget-visible ._access-menu {
   object-fit: cover !important;
 }
 }
+
+@media (max-width: 768px) {
+.layout-section#layout-1773937483243-dup-1774014246047 {
+  padding-top: 10px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
