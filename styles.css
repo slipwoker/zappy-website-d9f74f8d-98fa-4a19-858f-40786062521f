@@ -4798,18 +4798,6 @@ body.accessibility-widget-visible ._access-menu {
   grid-template-columns: 2fr 1.5fr 1fr !important;
 }
 }
-
-@media (max-width: 768px) {
-#zappy-section-0-dup-1773844088356 .home-Hero-section__content-card {
-  margin-top: -180px !important;
-}
-}
-
-@media (min-width: 769px) {
-#zappy-section-0-dup-1773844088356 .home-Hero-section__content-card {
-  margin-top: -100px !important;
-}
-}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
