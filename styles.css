@@ -4805,6 +4805,12 @@ body.accessibility-widget-visible ._access-menu {
   min-height: 900px !important;
 }
 }
+
+@media (max-width: 768px) {
+#zappy-section-0-dup-1773844088356 .home-Hero-section__container {
+  min-height: 900px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
