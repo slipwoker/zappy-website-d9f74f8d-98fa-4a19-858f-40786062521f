@@ -4798,6 +4798,12 @@ body.accessibility-widget-visible ._access-menu {
   grid-template-columns: 2fr 1.5fr 1fr !important;
 }
 }
+
+@media (max-width: 768px) {
+#zappy-section-0-dup-1773844088356 #zappy-section-3 {
+  margin-top: -260px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
