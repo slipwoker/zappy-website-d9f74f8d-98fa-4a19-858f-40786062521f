@@ -4804,6 +4804,27 @@ body.accessibility-widget-visible ._access-menu {
   min-height: 100svh !important;
 }
 }
+
+@media (max-width: 768px) {
+#zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15-dup-1774125310166-1 {
+  height: auto !important;
+  min-height: 300px !important;
+  max-height: none !important;
+}
+
+#zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15-dup-1774125310166-1 [data-zappy-zoom-wrapper] {
+  height: 300px !important;
+  padding-bottom: 0 !important;
+}
+
+#zappy-element-1774027511076-t2nzrvbyy-dup-1774027755267-15-dup-1774125310166-1 img {
+  height: 100% !important;
+  width: 100% !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
