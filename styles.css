@@ -2177,7 +2177,6 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   opacity: 1;
 }
 
-/* home-services */
 .home-services-section {
   position: relative;
   overflow: visible;
@@ -2186,7 +2185,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   background-size: 18px 18px;
   background-position: 0 0;
   color: var(--text-dark);
-  padding: 80px 16px 120px;
+  padding: 40px 16px 120px;
 }
 
 .home-services-section .home-services-container {
