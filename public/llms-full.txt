@@ -444,7 +444,7 @@ Last Updated:  3/17/2026
 
 
 
-RealGround Properties ("Company", "we", "our") is committed to protecting your privacy. This privacy policy explains how we collect, use and protect your information when you use our website [business_website] ("Service").
+RealGround Properties ("Company", "we", "our") is committed to protecting your privacy. This privacy policy explains how we collect, use and protect your information when you use our website https://realgroundproperties.com ("Service").
 
 
 ## 1. Information Collection
