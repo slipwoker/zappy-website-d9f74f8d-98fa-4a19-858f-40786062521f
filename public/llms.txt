@@ -1,35 +1,67 @@
-# Business — Generative Engine Optimization Map
+# RealGround Properties — Generative Engine Optimization Map
+
+> RealGround Properties specializes in making vacant land ownership simple and accessible across the United States. They focus on providing transparent opportunities for buyers seeking residential lots, recreational land for camping and outdoor adventures, agricultural parcels for farming and rural living, and investment properties with long-term potential. The brand emphasizes a straightforward, honest approach with seller financing options available.
 
 ---
 
 ## Pages
 
 ### Home
-https://realground-properties.zappy5.app
+https://realgroundproperties.com
 RealGround Properties makes land ownership accessible. Browse residential lots, recreational land, and agricultural parcels with transparent pricing and flexible financing.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://realground-properties.zappy5.app/privacy
+https://realgroundproperties.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://realground-properties.zappy5.app/terms
+https://realgroundproperties.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://realground-properties.zappy5.app/accessibility
+https://realgroundproperties.com/accessibility
 Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- Email: info@realgroundproperties.com
+- Phone: +1 (307) 441 9555
+- Phone (tel): tel:+13074419555
+- Address: 5830 East 2nd St., Casper, Casper
+
+### Contact form
+- URL: https://realgroundproperties.com
+- Endpoint: https://realgroundproperties.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About RealGround Properties
+RealGround Properties specializes in making vacant land ownership simple and accessible across the United States. They focus on providing transparent opportunities for buyers seeking residential lots, recreational land for camping and outdoor adventures, agricultural parcels for farming and rural living, and investment properties with long-term potential. The brand emphasizes a straightforward, honest approach with seller financing options available.
+
+## Target Audience
+buyers and investors looking for vacant land
+
+## Industry
+real estate
+
 ---
 
-# Additional Resources
+# Machine-readable feeds
 
-- **Sitemap**: https://realground-properties.zappy5.app/sitemap.xml
-- **Robots.txt**: https://realground-properties.zappy5.app/robots.txt
+- Sitemap (XML): https://realgroundproperties.com/sitemap.xml
+- Robots: https://realgroundproperties.com/robots.txt
+- Flattened page text (for LLMs): https://realgroundproperties.com/llms-full.txt

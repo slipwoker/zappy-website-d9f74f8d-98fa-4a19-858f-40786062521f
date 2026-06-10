@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -220,9 +220,13 @@
 <!-- End Zappy Analytics -->
     <meta property="og:title" content="Own Vacant Land with Seller Financing - RealGround Properties">
     <meta property="og:description" content="RealGround Properties makes land ownership accessible. Browse residential lots, recreational land, and agricultural parcels with transparent pricing and flexible financing.">
+    <meta property="og:image" content="https://realgroundproperties.com/assets/og-home-og.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Own Vacant Land with Seller Financing - RealGround Properties">
     <meta name="twitter:description" content="RealGround Properties makes land ownership accessible. Browse residential lots, recreational land, and agricultural parcels with transparent pricing and flexible financing.">
+    <meta name="twitter:image" content="https://realgroundproperties.com/assets/og-home-og.jpg">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://realgroundproperties.com#organization","name":"RealGround Properties","url":"https://realgroundproperties.com","description":"RealGround Properties specializes in making vacant land ownership simple and accessible across the United States. They focus on providing transparent opportunities for buyers seeking residential lots, recreational land for camping and outdoor adventures, agricultural parcels for farming and rural living, and investment properties with long-term potential. The brand emphasizes a straightforward, honest approach with seller financing options available.","address":{"@type":"PostalAddress","streetAddress":"5830 East 2nd St., Casper, Casper"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"info@realgroundproperties.com","telephone":"+1 (307) 441 9555"}]},{"@type":"WebSite","@id":"https://realgroundproperties.com#website","url":"https://realgroundproperties.com","name":"RealGround Properties","publisher":{"@id":"https://realgroundproperties.com#organization"}},{"@type":"ContactPage","@id":"https://realgroundproperties.com#contactpage","url":"https://realgroundproperties.com","name":"Own Vacant Land with Seller Financing - RealGround Properties","mainEntity":{"@id":"https://realgroundproperties.com#organization"},"potentialAction":{"@type":"CommunicateAction","target":{"@type":"EntryPoint","urlTemplate":"https://realgroundproperties.com/api/email/contact-form","actionPlatform":["http/method=POST"],"contentType":"application/json"},"instrument":[{"@type":"PropertyValue","name":"name","propertyID":"text","valueRequired":true,"description":"Your full name"},{"@type":"PropertyValue","name":"email","propertyID":"email","valueRequired":true,"description":"your.email@example.com"},{"@type":"PropertyValue","name":"phone","propertyID":"tel","valueRequired":false,"description":"(555) 123-4567"},{"@type":"PropertyValue","name":"message","propertyID":"textarea","valueRequired":true,"description":"Tell us about your land interests: location preferences, intended use, budget range, timeline..."},{"@type":"PropertyValue","name":"privacy_consent","propertyID":"checkbox","valueRequired":true}]}}]}</script>
+    <meta property="og:url" content="https://realgroundproperties.com">
     <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
   
@@ -691,6 +695,7 @@
 }
 </style>
     <link rel="stylesheet" href="/styles.css">
+    <script>window.ZAPPY_WEBSITE_ID = "d9f74f8d-98fa-4a19-858f-40786062521f"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
     <style id="zappy-dropdown-submenu-styles">
       /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
@@ -742,37 +747,38 @@
       @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
     </style>
 
-    <style id="mobile-lang-menu-deployed-css">
-    @media (max-width: 768px) {
-      .lang-switcher,
-      .nav-cta-container .lang-switcher,
-      .nav-container .lang-switcher,
-      .navbar .lang-switcher,
-      .navbar .nav-cta-container .lang-switcher,
-      .nav-icons-left .lang-switcher,
-      .nav-ecommerce-icons .lang-switcher { display: none !important; }
-      .mobile-lang-menu { width: 100%; border-top: 1px solid rgba(128,128,128,0.2); padding: 8px 0 0 0; margin-top: 8px; }
-      .mobile-lang-toggle { display: flex !important; align-items: center; justify-content: space-between; width: 100%; padding: 12px 16px; background: none; border: none; cursor: pointer; font-size: 15px; color: inherit; font-family: inherit; }
-      .mobile-lang-toggle::after { content: ''; display: inline-block; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform 0.3s ease; margin-left: 8px; }
-      .mobile-lang-toggle.expanded::after { transform: rotate(-135deg); }
-      .mobile-lang-options { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
-      .mobile-lang-options.expanded { max-height: 300px; }
-      .mobile-lang-option { display: flex !important; align-items: center; gap: 10px; padding: 10px 24px; text-decoration: none; color: inherit; font-size: 14px; font-family: inherit; }
-      .mobile-lang-option:hover { background: rgba(128,128,128,0.1); }
-      .mobile-lang-option.active { font-weight: 600; opacity: 0.7; pointer-events: none; }
-      .mobile-lang-option img { width: 20px; height: 20px; border-radius: 50%; }
-    }
-    @media (min-width: 769px) {
-      .mobile-lang-menu { display: none !important; }
-    }
-    </style>
-
     <style id="zappy-widget-visibility">
-      #mic-access-tool-general-button, .mic-access-tool-general-button,
-      #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-      ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-      #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-        display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
     </style>
 </head>
@@ -1331,7 +1337,7 @@
 
 
 <section id="services" class="home-services-section" data-layout-spec="Home-services">
-  <div class="home-services-container zappy-preserve-css-grid" id="zappy-auto-grid-1773860735891-ku7tlm" data-zappy-auto-grid="true" data-original-item-width="660" data-original-gap="12px" style="--zappy-grid-cols: 660px 560px !important; grid-template-columns: repeat(2, minmax(0, 1fr)); display: grid; --zappy-grid-cols: repeat(2, minmax(0, 1fr)); gap: 12px; align-items: stretch !important;" data-zappy-grid-align="start" data-zappy-explicit-columns="true"><div class="home-services-content-column" style="gap: 12px"><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16" class="dnXmp"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16" class="dnXmp"></grammarly-extension>
+  <div class="home-services-container zappy-preserve-css-grid" id="zappy-auto-grid-1773860735891-ku7tlm" data-zappy-auto-grid="true" data-original-item-width="660" data-original-gap="12px" style="--zappy-grid-cols: repeat(2, minmax(0, 1fr)) !important; grid-template-columns: repeat(2, minmax(0, 1fr)); display: grid; --zappy-grid-cols: repeat(2, minmax(0, 1fr)); gap: 12px; align-items: stretch !important;" data-zappy-grid-align="start" data-zappy-explicit-columns="true"><div class="home-services-content-column" style="gap: 12px"><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16" class="dnXmp"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: 0px; left: 0px; pointer-events: none; --rem: 16" class="dnXmp"></grammarly-extension>
       <h2 >Land for Real Life and Long-Term Plans</h2>
       <p class="home-services-intro" style="max-width: 813px; margin-left: auto; margin-right: auto" data-zappy-text-width="custom">Whether you're seeking a residential lot for your dream home, recreational land for camping and outdoor adventures, agricultural parcels for farming and rural living, or investment properties with long-term potential - we make it easy to move forward with clear details and simple next steps.</p>
       
@@ -1646,80 +1652,10 @@
       window.addEventListener('scroll',onS,{passive:true});
       window.addEventListener('resize',onS,{passive:true});
       onS();
-      var heroEl=document.querySelector('section[class*="hero"],[data-hero-type],main>section:first-child');
+      var heroEl=document.querySelector('section[class*="hero"],[data-hero-type],main:not(.courses-page-main)>section:first-child');
       var hasDH=false;
       if(heroEl){var hCs=getComputedStyle(heroEl);var hBI=hCs.backgroundImage;if(hBI&&hBI!=='none'){if(hBI.indexOf('url(')!==-1){var hM2=hCs.backgroundColor.match(/\d+/g);if(hM2&&hM2.length>=3){hasDH=sLum(parseInt(hM2[0]),parseInt(hM2[1]),parseInt(hM2[2]))<0.4;}else{hasDH=true;}}else if(hBI.indexOf('gradient')!==-1){var cM=hBI.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/g);if(cM&&cM.length>0){var tLm=0;for(var ci=0;ci<cM.length;ci++){var pts=cM[ci].match(/\d+/g);tLm+=sLum(parseInt(pts[0]),parseInt(pts[1]),parseInt(pts[2]));}hasDH=(tLm/cM.length)<0.4;}else{hasDH=true;}}else{hasDH=true;}}else{var hM=hCs.backgroundColor.match(/\d+/g);if(hM&&hM.length>=3){hasDH=sLum(parseInt(hM[0]),parseInt(hM[1]),parseInt(hM[2]))<0.4;}}}
       if(!hasDH){window.removeEventListener('scroll',onS);window.removeEventListener('resize',onS);applyScrolled();window._zappyNavNoDarkHero=true;}
-    })();
-    </script>
-
-    <script id="zappy-mobile-lang-menu-script">
-    (function() {
-      function initMobileLangMenu() {
-        if (window.innerWidth > 768) {
-          var existingMenu = document.querySelector('.mobile-lang-menu');
-          if (existingMenu) existingMenu.remove();
-          return;
-        }
-        if (document.querySelector('.mobile-lang-menu')) return;
-        var switcher = document.querySelector('.lang-switcher');
-        if (!switcher) return;
-        var dropdown = switcher.querySelector('.lang-switcher-dropdown');
-        if (!dropdown) return;
-        var options = dropdown.querySelectorAll('.lang-option');
-        if (options.length === 0) return;
-        var navMenu = document.getElementById('navMenu') || document.querySelector('.nav-menu') || document.querySelector('nav ul');
-        if (!navMenu) return;
-        var currentLang = document.documentElement.lang || 'en';
-        var langConfigs = {
-          he: {name:'עברית',flag:'https://api.iconify.design/circle-flags/il.svg'},
-          en: {name:'English',flag:'https://api.iconify.design/circle-flags/us.svg'},
-          ar: {name:'العربية',flag:'https://api.iconify.design/circle-flags/sa.svg'},
-          fr: {name:'Français',flag:'https://api.iconify.design/circle-flags/fr.svg'},
-          es: {name:'Español',flag:'https://api.iconify.design/circle-flags/es.svg'},
-          de: {name:'Deutsch',flag:'https://api.iconify.design/circle-flags/de.svg'},
-          ru: {name:'Русский',flag:'https://api.iconify.design/circle-flags/ru.svg'},
-          zh: {name:'中文',flag:'https://api.iconify.design/circle-flags/cn.svg'},
-          ja: {name:'日本語',flag:'https://api.iconify.design/circle-flags/jp.svg'},
-          pt: {name:'Português',flag:'https://api.iconify.design/circle-flags/br.svg'},
-          it: {name:'Italiano',flag:'https://api.iconify.design/circle-flags/it.svg'},
-          ko: {name:'한국어',flag:'https://api.iconify.design/circle-flags/kr.svg'}
-        };
-        var container = document.createElement('div');
-        container.className = 'mobile-lang-menu';
-        var currentConfig = langConfigs[currentLang] || {name:currentLang,flag:''};
-        var toggleBtn = document.createElement('button');
-        toggleBtn.className = 'mobile-lang-toggle';
-        toggleBtn.type = 'button';
-        var currentFlagHtml = currentConfig.flag ? '<img src="' + currentConfig.flag + '" width="20" height="20" alt="" style="border-radius:50%;margin-right:8px;margin-left:8px;">' : '';
-        toggleBtn.innerHTML = currentFlagHtml + currentConfig.name;
-        container.appendChild(toggleBtn);
-        var optionsDiv = document.createElement('div');
-        optionsDiv.className = 'mobile-lang-options';
-        var currentLink = document.createElement('a');
-        currentLink.className = 'mobile-lang-option active';
-        currentLink.href = '#';
-        currentLink.innerHTML = currentFlagHtml + currentConfig.name;
-        optionsDiv.appendChild(currentLink);
-        options.forEach(function(opt) {
-          var link = document.createElement('a');
-          link.className = 'mobile-lang-option';
-          link.href = opt.getAttribute('href');
-          link.innerHTML = opt.innerHTML;
-          optionsDiv.appendChild(link);
-        });
-        container.appendChild(optionsDiv);
-        navMenu.appendChild(container);
-        toggleBtn.addEventListener('click', function(e) {
-          e.preventDefault();
-          e.stopPropagation();
-          toggleBtn.classList.toggle('expanded');
-          optionsDiv.classList.toggle('expanded');
-        });
-      }
-      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileLangMenu); }
-      else { initMobileLangMenu(); }
-      window.addEventListener('resize', function() { clearTimeout(window._mlrt); window._mlrt = setTimeout(initMobileLangMenu, 250); });
     })();
     </script>
 
@@ -1738,8 +1674,11 @@
       function applyMobile(){
         if(_applied)return;_applied=true;
         document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          if(_isHeroBg(w))return;
           var cw=w.style.getPropertyValue('width');
-          if(!cw||cw==='100%')return;
+          var _sW=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-width'))||0;
+          var _sH=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-height'))||0;
+          if(!cw&&!(_sW>0&&_sH>0))return;
           if(!w._zappyDesktop)w._zappyDesktop={wStyle:w.getAttribute('style')};
           var img=w.querySelector('img');
           if(!img)return;
@@ -1748,7 +1687,6 @@
           var mobileZoom=parseFloat(mobileZoomStr);
           var mobileSrc=img.getAttribute('data-zappy-mobile-src');
           var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
-          var hasMobileOverrides=mobilePos||mobileZoomStr;
           var parentOvf=w.parentElement?((w.parentElement.style.overflow||'')+(window.getComputedStyle(w.parentElement).overflow||'')).trim():'';
           var inConstrainedParent=parentOvf.indexOf('hidden')!==-1||parentOvf.indexOf('clip')!==-1;
           if(inConstrainedParent){
@@ -1758,43 +1696,41 @@
             w.style.setProperty('max-width','100%','important');
           }
           if(mobileSrc)img.src=mobileSrc;
-          if(hasMobileOverrides){
+          function _applyZoomCrop(_img,_w,_ePos,_eZoom){
+            var rect=_w.getBoundingClientRect();
+            if(!rect||!rect.width||!rect.height)return;
+            var nW=_img.naturalWidth||0,nH=_img.naturalHeight||0;
+            if(!(nW>0&&nH>0))return;
+            var iA=nW/nH,cA=rect.width/rect.height;
+            var cv=_coverPct(iA,cA);
+            var wP=100,hP=100;
+            if(_eZoom>=1){wP=cv.w*_eZoom;hP=cv.h*_eZoom;}
+            else{var t2=(_eZoom-0.5)/0.5;if(!isFinite(t2))t2=0;t2=Math.max(0,Math.min(1,t2));wP=100+t2*(cv.w-100);hP=100+t2*(cv.h-100);}
+            var p2=_parsePos(_ePos);
+            var lP=(100-wP)*(p2.x/100);
+            var tP=(100-hP)*(p2.y/100);
+            _img.style.setProperty('position','absolute','important');
+            _img.style.setProperty('left',lP+'%','important');
+            _img.style.setProperty('top',tP+'%','important');
+            _img.style.setProperty('width',wP+'%','important');
+            _img.style.setProperty('height',hP+'%','important');
+            _img.style.setProperty('max-width','none','important');
+            _img.style.setProperty('max-height','none','important');
+            _img.style.setProperty('display','block','important');
+            _img.style.setProperty('object-fit',_eZoom<1?'fill':'cover','important');
+            _img.style.setProperty('transform','none','important');
+            _img.style.setProperty('margin','0','important');
+          }
+          if(_sW>0&&_sH>0){
             var effZoom=(isFinite(mobileZoom)&&mobileZoom>0)?mobileZoom:(parseFloat(img.getAttribute('data-zappy-zoom'))||1);
-            var effPos=mobilePos||'50% 50%';
+            var effPos=mobilePos||img.getAttribute('data-zappy-object-position')||img.style.objectPosition||'50% 50%';
             w.style.setProperty('overflow','hidden','important');
             w.style.setProperty('position','relative','important');
             w.style.setProperty('width','100%','important');
             w.style.setProperty('max-width','100%','important');
-            var _sW=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-width'))||0;
-            var _sH=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-height'))||0;
-            if(_sW>0&&_sH>0){w.style.setProperty('aspect-ratio',_sW+'/'+_sH,'important');w.style.setProperty('height','auto','important');}
-            function _applyZoomCrop(_img,_w,_ePos,_eZoom){
-              var rect=_w.getBoundingClientRect();
-              if(!rect||!rect.width||!rect.height)return;
-              var nW=_img.naturalWidth||0,nH=_img.naturalHeight||0;
-              if(!(nW>0&&nH>0))return;
-              var iA=nW/nH,cA=rect.width/rect.height;
-              var cv=_coverPct(iA,cA);
-              var wP=100,hP=100;
-              if(_eZoom>=1){wP=cv.w*_eZoom;hP=cv.h*_eZoom;}
-              else{var t2=(_eZoom-0.5)/0.5;if(!isFinite(t2))t2=0;t2=Math.max(0,Math.min(1,t2));wP=100+t2*(cv.w-100);hP=100+t2*(cv.h-100);}
-              var p2=_parsePos(_ePos);
-              var lP=(100-wP)*(p2.x/100);
-              var tP=(100-hP)*(p2.y/100);
-              _img.style.setProperty('position','absolute','important');
-              _img.style.setProperty('left',lP+'%','important');
-              _img.style.setProperty('top',tP+'%','important');
-              _img.style.setProperty('width',wP+'%','important');
-              _img.style.setProperty('height',hP+'%','important');
-              _img.style.setProperty('max-width','none','important');
-              _img.style.setProperty('max-height','none','important');
-              _img.style.setProperty('display','block','important');
-              _img.style.setProperty('object-fit',_eZoom<1?'fill':'cover','important');
-              _img.style.setProperty('transform','none','important');
-              _img.style.setProperty('margin','0','important');
-            }
+            if(_sW>0&&_sH>0){w.style.setProperty('padding-bottom','0','important');w.style.setProperty('aspect-ratio',_sW+'/'+_sH,'important');w.style.setProperty('height','auto','important');}
             _applyZoomCrop(img,w,effPos,effZoom);
-            if(mobileSrc&&!(img.complete&&img.naturalWidth>0)){
+            if(!(img.complete&&img.naturalWidth>0)){
               (function(_i,_w2,_p,_z){_i.addEventListener('load',function _ol(){_i.removeEventListener('load',_ol);try{_applyZoomCrop(_i,_w2,_p,_z);}catch(e){}});
               })(img,w,effPos,effZoom);
             }
